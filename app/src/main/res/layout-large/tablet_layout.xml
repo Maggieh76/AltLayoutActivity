@@ -9,8 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        tools:layout_editor_absoluteX="305dp"
-        tools:layout_editor_absoluteY="389dp"
+        tools:layout_editor_absoluteX="493dp"
+        tools:layout_editor_absoluteY="163dp"
         tools:text="Name" />
 
     <ImageView
@@ -18,8 +18,8 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:scaleType="center"
-        tools:layout_editor_absoluteX="509dp"
-        tools:layout_editor_absoluteY="417dp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="35dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -29,16 +29,16 @@
         android:paddingTop="8dp"
         android:text="Email"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="305dp"
-        tools:layout_editor_absoluteY="219dp" />
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="372dp" />
 
     <TextView
         android:id="@+id/email2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        tools:layout_editor_absoluteX="700dp"
-        tools:layout_editor_absoluteY="173dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="427dp"
         tools:text="Email Address" />
 
     <TextView
@@ -48,16 +48,16 @@
         android:paddingTop="8dp"
         android:text="Extension"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="494dp"
-        tools:layout_editor_absoluteY="250dp" />
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="511dp" />
 
     <TextView
         android:id="@+id/extension2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="500dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="565dp"
         tools:text="Extension" />
 
     <TextView
@@ -67,16 +67,16 @@
         android:paddingTop="8dp"
         android:text="Department"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="340dp" />
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="666dp" />
 
     <TextView
         android:id="@+id/department2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:layout_editor_absoluteX="845dp"
-        tools:layout_editor_absoluteY="81dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="719dp"
         tools:text="Department name" />
 
     <TextView
@@ -86,16 +86,16 @@
         android:paddingTop="8dp"
         android:text="Supervisor"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="63dp" />
+        tools:layout_editor_absoluteX="752dp"
+        tools:layout_editor_absoluteY="352dp" />
 
     <TextView
         android:id="@+id/supervisor2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        tools:layout_editor_absoluteX="391dp"
-        tools:layout_editor_absoluteY="96dp"
+        tools:layout_editor_absoluteX="752dp"
+        tools:layout_editor_absoluteY="416dp"
         tools:text="Supervisor\'s Name" />
 
     <TextView
@@ -105,14 +105,14 @@
         android:paddingTop="8dp"
         android:text="Direct Reports"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="197dp" />
+        tools:layout_editor_absoluteX="762dp"
+        tools:layout_editor_absoluteY="489dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/directReportsRecyclerView"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        tools:layout_editor_absoluteX="900dp"
-        tools:layout_editor_absoluteY="283dp" />
+        tools:layout_editor_absoluteX="762dp"
+        tools:layout_editor_absoluteY="544dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
